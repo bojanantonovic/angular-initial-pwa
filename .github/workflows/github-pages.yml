@@ -26,7 +26,7 @@ jobs:
 
       - name: Build Angular
         # WICHTIG: --base-href ist nötig, damit GitHub Pages die Pfade findet
-        run: npx ng build --configuration production --base-href /DEIN-REPO-NAME/
+        run: npx ng build --configuration production --base-href /angular-initial-pwa/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
